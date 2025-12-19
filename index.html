@@ -1,281 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffee Website | CodingNepal</title>
-    <!--Linking Font Awesome foe icons-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <!--Linking Swiper CSS-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--Header / Navbar-->
-    <header>
-        <nav class="navbar section-content">
-            <a href="#" class="nav-logo">
-                <h2 class="logo-text">Coffee</h2>
-            </a>
-                <ul class="nav-menu">
-                    <button id="menu-close-button" class="fas fa-times"></button>
-                <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
-                </li>
-                   <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
-                </li>
-                   <li class="nav-item">
-                    <a href="#menu" class="nav-link">Menu</a>
-                </li>
-                   <li class="nav-item">
-                    <a href="#testimonials" class="nav-link">Testimonials</a>
-                </li>
-                   <li class="nav-item">
-                    <a href="#gallery" class="nav-link">Gallery</a>
-                </li>
-                   <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
-            </ul>
-             <button id="menu-open-button" class="fas fa-bars"></button>
-        </nav>
-    </header>
-    <main>
-        <!--Hero section-->
-        <section class="hero-section">
-            <div class="section-content">
-             <div class="hero-details">
-                <h2 class="title">Best Coffee</h2>
-                <h3 class="subtitle">Make your day great with our special coffee!</h3>
-                <p class="description">Welcome to our coffee paradise, where every bean tells a story and every cup sparks joy.</p>
+  <header>
+    <a href="#" class="logo"><span>T</span>ravel</a>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#book">Book</a>
+      <a href="#packages">Packages</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-                <div class="buttondiv">
-                    <a href="#" class="button order-now">Order Now</a>
-                    <a href="#" class="button contact-us">Contact Us</a>
-                </div>
-             </div>
-             <div class="hero-image-wrapper">
-                <img src="img/coffee4.png" alt="Hero" class="hero-image">
-             </div>
-            </div>
-        </section>
-        <!--About section-->
-        <section class="about-section" id="about">
-            <div class="section-content">
-                <div class="about-image-wapper">
-                    <img src="img/talk.jpg" alt="About" 
-                    class="about-image">
-                </div>
-                <div class="about-details">
-                    <h2 class="section-title">About Us</h2>
-                    <p class="text">At Coffee House in Berndorf, Germany, wee pride ourselves on being a go-to destination for coffee lovers and coversation seekers alike. We're dedicated to providing an exceptional coffee experience in a cozy and inviting atmosphere, where guests can relax, unwind, and enjoy their time in comfort.
-                    </p>
-                    <div class="social-link-list">
-                        <a href="#" class="social-link"><i class="fa-brands
-                        fa-facebook"></i></a>
-                        <a href="#" class="social-link"><i class="fa-brands
-                        fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fa-brands
-                        fa-x-twitter"></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
+  </header>
 
-        <!--Menu section-->
-        <section class="menu-section" id="menu">
-            <h2 class="section-title">Our Menu</h2>
-            <div class="section-content">
-                <ul class="menu-list">
-                    <li class="menu-item">
-                        <img src="img/0.6.png" alt="Hot Beverages"
-                         class="menu-image">
-                         <h3 class="name">Hot Beverages</h3>
-                         <p class="text">Wide range of Steaming hot coffee to make you fresh and light.</p>
-                    </li>
-                       <li class="menu-item">
-                        <img src="img/1.1.png" alt="Cold Beverages"
-                         class="menu-image">
-                         <h3 class="name">cold Beverages</h3>
-                         <p class="text">Creamy and frothy cold coffee to make you cool.</p>
-                    </li>
-                       <li class="menu-item">
-                        <img src="img/2.2.png" alt="Refreshment"
-                         class="menu-image">
-                         <h3 class="name">Refreshment</h3>
-                         <p class="text">Fruit icy refreshing drink to make feel refresh.</p>
-                    </li>
-                       <li class="menu-item">
-                        <img src="img/3.3.png" alt="Special Combos"
-                         class="menu-image">
-                         <h3 class="name">Special Combos</h3>
-                         <p class="text">You favorite eating and drinking combations.</p>
-                    </li>
-                       <li class="menu-item">
-                        <img src="img/4.4.png" alt="Dessert"
-                         class="menu-image">
-                         <h3 class="name">Dessert</h3>
-                         <p class="text">Satiate your palate and take you on a culinary treat.</p>
-                    </li>
-                       <li class="menu-item">
-                        <img src="img/5.5.png" alt="Burger & French Fries"
-                         class="menu-image">
-                         <h3 class="name">Burger & French Fries</h3>
-                         <p class="text">Quit bites to satisfy your small size hunger.</p>
-                    </li>
-                </ul>
-            </div>
+  <section class="home" id="home">
+    <div class="content">
+      <h3>adventure is worthwhile</h3>
+      <p>discover new places with us, adventure awaits</p>
+      <a href="#" class="btn">discover more</a>
+    </div>
 
-        </section>
+    <div class="controls">
+      <span class="vid-btn" data-src="../img/download (2).jfif"></span>
+    </div>
 
-        <!--Testimonials section-->
-        <section class="testimonials-section" id="testimonials">
-            <h2 class="section-title">Testimonials</h2>
-            <div class="section-content">
-                <div class="slider-container swiper">
-                    <div class="slider-wrapper">
-                        <ul class="testimonials-list swiper-wrapper">
-                            <li class="testimonial swiper-slide">
-                               <img src="img/luffy.jpg" alt="User" class="user-image">
-                               <h3 class="name">Monkey d. luffy</h3>
-                               <i class="feedback">"Loved the French roast. Perfectly balanced and rich. Will order again!"</i>
-                            </li>
-                             <li class="testimonial swiper-slide">
-                               <img src="img/zoro.jpg" alt="User" class="user-image">
-                               <h3 class="name">Roronoa zoro</h3>
-                               <i class="feedback">"Loved the French roast. Perfectly balanced and rich. Will order again!"</i>
-                            </li>
-                             <li class="testimonial swiper-slide">
-                               <img src="img/senji.jpg" alt="User" class="user-image">
-                               <h3 class="name">Vinsmoke Sanji</h3>
-                               <i class="feedback">"Loved the French roast. Perfectly balanced and rich. Will order again!"</i>
-                            </li>
-                             <li class="testimonial swiper-slide">
-                               <img src="img/law.jpg" alt="User" class="user-image">
-                               <h3 class="name">Trafalgar D. Water Law</h3>
-                               <i class="feedback">"Loved the French roast. Perfectly balanced and rich. Will order again!"</i>
-                            </li>
-                             <li class="testimonial swiper-slide">
-                               <img src="img/kid.jpg" alt="User" class="user-image">
-                               <h3 class="name">Eustass "Captain" Kid</h3>
-                               <i class="feedback">"Loved the French roast. Perfectly balanced and rich. Will order again!"</i>
-                            </li>
-                        </ul>
+    <div class="video-container">
+      <img src="../img/download (2).jfif" ></img>
+    </div>
+    </section>
 
-                        <div class="swiper-pagination"></div>
-                        <div class="swiper-slide-button
-                        swiper-button-prev"></div>
-                        <div class="swiper-slide-button
-                        swiper-button-next"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <section class="book" id="book">
+      <h1 class="heading"> 
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+      </h1>
 
-            <!--Gallery section-->
-        <section class="gallery-seection" id="gallery">
-            <h2 class="section-title">Gallery</h2>
-            <div class="section-content">
-                <ul class="gallery-list">
-                    <li class="gallery-item">
-                        <img src="img/a.1.jpg" alt="Gallery" 
-                        class="gallerry-image">
-                    </li>
-                       <li class="gallery-item">
-                        <img src="img/b.jpg" alt="Gallery" 
-                        class="gallerry-image">
-                    </li>
-                       <li class="gallery-item">
-                        <img src="img/c.jpg" alt="Gallery" 
-                        class="gallerry-image">
-                    </li>
-                       <li class="gallery-item">
-                        <img src="img/d.jpg" alt="Gallery" 
-                        class="gallerry-image">
-                    </li>
-                       <li class="gallery-item">
-                        <img src="img/e.jpg" alt="Gallery" 
-                        class="gallerry-image">
-                    </li>
-                       <li class="gallery-item">
-                        <img src="img/s.jpg" alt="Gallery" 
-                        class="gallerry-image">
-                    </li>
-                </ul>
-            </div>
-        </section>
+      <div class="row">
 
-        <!--Contact section-->
-        <section class="content-section" id="contact">
-            <h2 class="section-title">Contact Us</h2>
-            <div class="section-content">
-                <ul class="contact-info-list">
-                    <li class="contact-info">
-                        <i class="fa-solid fa-location-crosshairs "></i>
-                        <p>123 Campsite Avenue, Wilderness, CA 98765</p>
-                    </li>
-                         <li class="contact-info">
-                        <i class="fa-regular fa-envelope "></i>
-                        <p>info@coffeeshopwebsite.com</p>
-                    </li>
-                         <li class="contact-info">
-                        <i class="fa-solid fa-phone "></i>
-                        <p>(123) 456-78909</p>
-                    </li>
-                         <li class="contact-info">
-                        <i class="fa-regular fa-clock "></i>
-                        <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
-                    </li>
-                       </li>
-                         <li class="contact-info">
-                        <i class="fa-regular fa-clock "></i>
-                        <p>Saturday: 10:00 AM - 3:00 PM</p>
-                    </li>
-                         <li class="contact-info">
-                        <i class="fa-regular fa-clock "></i>
-                        <p>Sunday: Closed</p>
-                    </li>
-                         <li class="contact-info">
-                        <i class="fa-solid fa-globe "></i>
-                        <p>www.codingnepalweb.com</p>
-                    </li>
-                </ul>
+        <div class="image">
+          <img src="../img/Cute man traveling  _ Premium Vector.jfif" alt="">
+        </div>
+      
+        <form action="">
+          <div class="inputBox">
+            <h3>Where to</h3>
+            <input type="text" placeholder="place name">
+          </div>
+          <div class="inputBox">
+            <h3>How many</h3>
+            <input type="number" placeholder="number of guests">
+          </div>
+          <div class="inputBox">
+            <h3>Arrivals</h3>
+            <input type="data">
+          </div>
+          <div class="inputBox">
+            <h3>Leaving</h3>
+            <input type="data">
+          </div>
+          <input type="submit" class="btn" value="book now">
+        </form>
 
-                <form action="#" class="contact-form">
-                    <input type="text" placeholder="Your name" class="form-input" required>
-                    <input type="email" placeholder="Your email" class="form-input" required>
-                    <textarea placeholder="Your message" class="form-input" required></textarea>
-                    <button class="submit-button">Submit</button>
-                </form>
-            </div>
-        </section>
+      </div>
 
-        <!--Footer section-->
-        <footer class="footer-section">
-            <div class="section-content">
-                <p class="copyright-text">@2024 Coffee shop</p>
+    </section>
 
-               <div class="social-link-list">
-                        <a href="#" class="social-link"><i class="fa-brands
-                        fa-facebook"></i></a>
-                        <a href="#" class="social-link"><i class="fa-brands
-                        fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fa-brands
-                        fa-x-twitter"></i></a>
-                    </div>
-                    <p class="policy-text">
-                        <a href="#" class="policy-link">Privacy policy</a>
-                        <span class="separator"></span>
-                        <a href="#" class="policy-link">Refund policy</a>
-                    </p>
-            </div>
-        </footer>
-    </main>
+    <section class="packages" id="packages">
 
-    <!--Linking swiper script-->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!--Linking custom script-->
-    <script src="script1.js"></script>
+  <h1 class="heading">
+    <span>p</span>
+    <span>a</span>
+    <span>c</span>
+    <span>k</span>
+    <span>a</span>
+    <span>g</span>
+    <span>e</span>
+    <span>s</span>
+  </h1>
+
+  <div class="box-container">
+
+    <!-- Mumbai -->
+    <div class="box">
+      <img src="../img/mumbi.jfif" alt="Mumbai city">
+      <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i> Mumbai</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+        <div class="price">$90.00 <span>$120.00</span></div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+    <!-- Sydney -->
+    <div class="box">
+      <img src="../img/Sydney.jfif" alt="Sydney city">
+      <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i> Sydney</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+        <div class="price">$90.00 <span>$120.00</span></div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+    <!-- Hawaii -->
+    <div class="box">
+      <img src="../img/hawaii.jfif" alt="Hawaii beach">
+      <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i> Hawaii</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+        <div class="price">$90.00 <span>$120.00</span></div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+    <!-- Paris -->
+    <div class="box">
+      <img src="../img/paris.jfif" alt="Paris city">
+      <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i> Paris</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+        <div class="price">$90.00 <span>$120.00</span></div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+    <!-- Tokyo -->
+    <div class="box">
+      <img src="../img/tokyo.jfif" alt="Tokyo skyline">
+      <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i> Tokyo</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+        <div class="price">$90.00 <span>$120.00</span></div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+    <!-- Egypt -->
+    <div class="box">
+      <img src="../img/egypt.jfif" alt="Pyramids of Egypt">
+      <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i> Egypt</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+        <div class="price">$90.00 <span>$120.00</span></div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <section class="services" id="services">
+  <h1 class="heading">
+    <span>s</span>
+    <span>e</span>
+    <span>r</span>
+    <span>v</span>
+    <span>i</span>
+    <span>c</span>
+    <span>e</span>
+    <span>s</span>
+  </h1>
+  <div class="box-container">
+  <div class="box">
+    <i class="fas fa-hotel"></i>
+    <h3>affordable hotels</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+  </div>
+
+  <div class="box">
+    <i class="fas fa-utensils"></i>
+    <h3>food and drinks</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+  </div>
+
+  <div class="box">
+    <i class="fas fa-bullhorn"></i>
+    <h3>safty guide</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+  </div>
+
+  <div class="box">
+    <i class="fas fa-globe-asia"></i>
+    <h3>arround the world</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+  </div>
+
+  <div class="box">
+    <i class="fas fa-plane"></i>
+    <h3>fastest travel</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+  </div>
+
+  <div class="box">
+    <i class="fas fa-hiking"></i>
+    <h3>adventures</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+  </div>
+  </div>
+  </section>
+
+  <section class="gllery" id="gallery">
+
+  <h1 class="heading">
+    <span>g</span>
+    <span>a</span>
+    <span>l</span>
+    <span>l</span>
+    <span>e</span>
+    <span>r</span>
+    <span>y</span>
+  </h1>
+
+  <div class="box-container">
+
+    <div class="box">
+      <img src="../img/1.jfif" alt="">
+      <div class="content">
+        <h3>amazing places</h3>
+        <p>blala blala blala blala blala blala  blala blala blala blala blala blala blala blala blala</p>
+        <a href="#" class="btn"></a>
+      </div>
+    </div>
+  
+    <div class="box">
+      <img src="../img/2.jfif" alt="">
+      <div class="content">
+        <h3>amazing places</h3>
+        <p>blala blala blala blala blala blala  blala blala blala blala blala blala blala blala blala</p>
+        <a href="#" class="btn"></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="../img/3.1.jfif" alt="">
+      <div class="content">
+        <h3>amazing places</h3>
+        <p>blala blala blala blala blala blala  blala blala blala blala blala blala blala blala blala</p>
+        <a href="#" class="btn"></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="../img/4.jfif" alt="">
+      <div class="content">
+        <h3>amazing places</h3>
+        <p>blala blala blala blala blala blala  blala blala blala blala blala blala blala blala blala</p>
+        <a href="#" class="btn"></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="../img/5.jfif" alt="">
+      <div class="content">
+        <h3>amazing places</h3>
+        <p>blala blala blala blala blala blala  blala blala blala blala blala blala blala blala blala</p>
+        <a href="#" class="btn"></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="../img/6.jfif" alt="">
+      <div class="content">
+        <h3>amazing places</h3>
+        <p>blala blala blala blala blala blala  blala blala blala blala blala blala blala blala blala</p>
+        <a href="#" class="btn"></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="../img/7.jfif" alt="">
+      <div class="content">
+        <h3>amazing places</h3>
+        <p>blala blala blala blala blala blala  blala blala blala blala blala blala blala blala blala</p>
+        <a href="#" class="btn"></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="../img/8.jfif" alt="">
+      <div class="content">
+        <h3>amazing places</h3>
+        <p>blala blala blala blala blala blala  blala blala blala blala blala blala blala blala blala</p>
+        <a href="#" class="btn"></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="../img/9.jfif" alt="">
+      <div class="content">
+        <h3>amazing places</h3>
+        <p>blala blala blala blala blala blala  blala blala blala blala blala blala blala blala blala</p>
+        <a href="#" class="btn"></a>
+      </div>
+    </div>
+
+  </div>
+  </section>
+
+  <section class="contact" id="contact">
+
+  <h1 class="heading">
+    <span>c</span>
+    <span>o</span>
+    <span>n</span>
+    <span>t</span>
+    <span>e</span>
+    <span>n</span>
+    <span>t</span>
+  </h1>
+
+  <div class="row">
+
+    <div class="image">
+      <img src="../img/content.jfif" alt="">
+    </div>
+
+    <form action="">
+      <div class="inputBox">
+        <input type="text" placeholder="name">
+        <input type="email" placeholder="email">
+      </div>
+      <div class="inputBox">
+        <input type="number" placeholder="number">
+        <input type="text" placeholder="subject">
+      </div>
+      <textarea name="" id="" placeholder="message" cols="30" rows="10"></textarea>
+      <input type="submit" class="btn" value="send message">
+    </form>
+
+  </div>
+  
+  </section>
+
+<footer>
+  <p>© 2025 Travel. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
